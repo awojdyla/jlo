@@ -1,14 +1,22 @@
-This module is meat
+# Jlo: Julia Optics
 
-It is inspired by MIP (Matlab image processing), a package that I wrote for Matlab
-github.com/awojdyla/mip and its Python equivalent, COPPY (Computational Optics for Python) github.com/awojdyla/coppy
-There's some inspiration from imageJ
+## About
+This is a a package made the Julia 
+It is inspired by MIP (Matlab image processing), a package that I wrote for Matlab (github.com/awojdyla/mip) and its Python equivalent, COPPY (Computational Optics for Python) github.com/awojdyla/coppy, and to some extent by imageJ 
 
+## usage
+add 'include(Jlo.jl)' to your code and you're good to go
+
+## Example of use
 
 Create a gaussian
-
 Propagate using Fourier Optics
 
+ft of a sinewave
+pinhole divergence
+
+
+## To do
 Some tools for easy data processing:
 bin
 crop
@@ -17,13 +25,10 @@ resize
 rotate
 detrend
 
-
 some sanity checks
-ft of a sinewave
-pinhole divergence
 
 czt?
-removal
+bg removal
 
 A bunch of examples
 propagation
