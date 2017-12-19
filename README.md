@@ -34,6 +34,8 @@ Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)
 
 + Talbot effect
 
+`test_jlo` has many more examples of use.
+
 ## A few notes
 I've implemented `ft` and `ift` function which are zero-centered Fourier Transform, following the optical conventions i(wt-kx). They come together with a`fs`, frequency scale function that creates a frequency scale from a real space scale. This is quite useful when one wants to apply filters and so on.
 
