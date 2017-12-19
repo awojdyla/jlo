@@ -2,7 +2,7 @@
 
 ## About
 This is a a package made for the Julia language in order to process optical data.
-It is inspired by MIP (Matlab image processing), a package that I wrote for Matlab (github.com/awojdyla/mip) and its Python equivalent, COPPY (Computational Optics for Python) github.com/awojdyla/coppy, and to some extent by imageJ.
+It is inspired by [MIP (Matlab image processing)](https://github.com/awojdyla/mip), a package that I wrote for Matlab  and its Python equivalent, [COPPY (Computational Optics for Python)](https://bitbucket.org/alsuboss/coppy) , and to some extent by imageJ.
 
 
 The code (ported from Matlab with little command of Julia) currently lacks many error check (e.g. size of matrices etc.) and proper in-line documentation. Feel free to share with me he bugs you have encountered, and I'll be happy to correct them.
