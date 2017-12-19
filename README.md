@@ -20,39 +20,41 @@ It has been tested with Julia 0.5+ (it seems not to work properly for Julia 0.3)
 
 ## Example of use
 Create a gaussian
-```X,Y = Jlo.meshgrid(x,x)```
-```G = Jlo.gaussian(X,0,0.1).*Jlo.gaussian(Y,0,0.1)```
-Propagate using Fourier Optics
-```Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)```
+```juliaX,Y = Jlo.meshgrid(x,x)
+G = Jlo.gaussian(X,0,0.1).*Jlo.gaussian(Y,0,0.1)
+```
+and propagate it using Fourier Optics:
+```julia
+Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)```
 
-ft of a sinewave
-pinhole divergence
++ ft of a sinewave
++ pinhole divergence
+
++ Talbot effect
 
 ## A few notes
 I've implemented `ft` and `ift` function which are zero-centered Fourier Transform, following the optical conventions i(wt-kx). They come together with a`fs`, frequency scale function that creates a frequency scale from a real space scale. This is quite useful when one wants to apply filters and so on.
 
 ## To do
 Some tools for easy data processing:
-bin
-crop
-pad
-resize
-rotate
-detrend
++ bin
++ crop
++ pad
++ resize
++ rotate
++ detrend
++ Zernike
++ zoneplates
 
-some sanity checks
+add some sanity checks
++czt?
++bg removal
 
-czt?
-bg removal
-
-A bunch of examples
-propagation
-lens
-talbot effect
-wavefront sensing
-
-[display polarization]
-[polarization/ rotation matrix]
+## Pipe dreams
+Your help is needed! Let me know if you're interested in implementing things such as
++ Ray tracing (implementing shadow, xrt)
++ ultra-fast optics (indices of material dispersion)
++ multilayer & polarization
 
 getting help?
 
