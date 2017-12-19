@@ -18,7 +18,7 @@ It has been tested with Julia 0.5+ (it seems not to work properly for Julia 0.3)
 
 ## Example of use
 Create a gaussian
-X,Y = Jlo.meshgrid(x,x)
+```X,Y = Jlo.meshgrid(x,x)```
 ```G = Jlo.gaussian(X,0,0.1).*Jlo.gaussian(Y,0,0.1)```
 Propagate using Fourier Optics
 ```Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)```
