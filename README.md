@@ -4,7 +4,6 @@
 This is a a package made for the Julia language in order to process optical data.
 It is inspired by [MIP (Matlab image processing)](https://github.com/awojdyla/mip), a package that I wrote for Matlab  and its Python equivalent, [COPPY (Computational Optics for Python)](https://bitbucket.org/alsuboss/coppy) (it has restricted access for the moment), and to some extent by imageJ for common image manipulation (crop, zero pad, resize and rotate)
 
-
 The code (ported from Matlab with little command of Julia) currently lacks many error check (e.g. size of matrices etc.) and proper in-line documentation. Feel free to share with me he bugs you have encountered, and I'll be happy to correct them.
 
 The name is a nod to Jennifer Lopez, a great [artist](https://www.youtube.com/watch?v=4kGvlESGvbs) and [philanthropist](https://en.wikipedia.org/wiki/Jennifer_Lopez#Philanthropy_and_activism). Be like her, donate to [Hurricane Relief](http://www.redcross.org/about-us/our-work/disaster-relief/hurricane-relief).
@@ -52,12 +51,10 @@ add some sanity checks
 +bg removal
 
 ## Pipe dreams
-Your help is needed! Let me know if you're interested in implementing things such as
+Your help is needed! Let me know if you're interested in implementing things such as:
 + Ray tracing (implementing shadow, xrt)
 + ultra-fast optics (indices of material dispersion)
 + multilayer & polarization
-
-getting help?
 
 ## Disclaimer
 THIS SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
