@@ -7,6 +7,8 @@ It is inspired by [MIP (Matlab image processing)](https://github.com/awojdyla/mi
 
 The code (ported from Matlab with little command of Julia) currently lacks many error check (e.g. size of matrices etc.) and proper in-line documentation. Feel free to share with me he bugs you have encountered, and I'll be happy to correct them.
 
+The name is a nod to Jennifer Lopez, a great [artist](https://www.youtube.com/watch?v=4kGvlESGvbs) and [philanthropist](https://en.wikipedia.org/wiki/Jennifer_Lopez#Philanthropy_and_activism). Be like her, donate to [Hurricane Relief](http://www.redcross.org/about-us/our-work/disaster-relief/hurricane-relief).
+
 ## Usage
 ```git clone https://github.com/awojdyla/jlo```.
 
