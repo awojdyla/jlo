@@ -6,7 +6,9 @@ It is inspired by MIP (Matlab image processing), a package that I wrote for Matl
 
 ## usage
 ```git clone https://github.com/awojdyla/jlo```.
-add ```include(Jlo.jl)``` to your code and you're good to go
+
+add ```include(Jlo.jl)``` to your code and you're good to go!
+
 You only need is `Jlo.jl`, really.
 
 ## Example of use
