@@ -10,7 +10,7 @@ The code (ported from Matlab with little command of Julia) currently lacks many 
 The name is a nod to Jennifer Lopez, a great [artist](https://www.youtube.com/watch?v=4kGvlESGvbs) and [philanthropist](https://en.wikipedia.org/wiki/Jennifer_Lopez#Philanthropy_and_activism). Be like her, donate to [Hurricane Relief](http://www.redcross.org/about-us/our-work/disaster-relief/hurricane-relief).
 
 ## Usage
-```git clone https://github.com/awojdyla/jlo```.
+```git clone https://github.com/awojdyla/jlo```
 
 (all you need need is `Jlo.jl`, really.)
 
@@ -25,7 +25,8 @@ G = Jlo.gaussian(X,0,0.1).*Jlo.gaussian(Y,0,0.1)
 ```
 and propagate it using Fourier Optics:
 ```julia
-Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)```
+Eprop = Jlo.propTF(G,100e-3,1e-6,100e-3)
+```
 
 + ft of a sinewave
 + pinhole divergence
