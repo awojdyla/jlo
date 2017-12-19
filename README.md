@@ -5,7 +5,9 @@ This is a a package made the Julia
 It is inspired by MIP (Matlab image processing), a package that I wrote for Matlab (github.com/awojdyla/mip) and its Python equivalent, COPPY (Computational Optics for Python) github.com/awojdyla/coppy, and to some extent by imageJ 
 
 ## usage
+'git clone https://github.com/awojdyla/jlo'.
 add 'include(Jlo.jl)' to your code and you're good to go
+You only need Jlo.jl, really.
 
 ## Example of use
 
